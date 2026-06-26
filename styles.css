@@ -5,12 +5,21 @@
   font-family: "Roboto", sans-serif;
 }
 
-/* h1 {
+.hero {
+  background-color: #1f2937;
+}
+
+.hero_headline {
   font-size: 48px;
   color: #f9faf8;
-  font-weight: 800;
+  font-weight: 900;
   margin-bottom: 5px;
-} */
+} 
+
+.hero_description {
+  color: #f9faf8;
+  font-size: 18px;
+}
 
 header {
   background-color: #1f2937;
@@ -22,8 +31,8 @@ header {
 .top_bar {
   display: flex;
   margin-bottom: 40px;
+  background-color: #1f2937;
   color: #f9faf8;
-  padding: 10px;
   justify-content: space-between;
   align-items: center;
 }
